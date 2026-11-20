@@ -1,0 +1,16 @@
+{
+  "name": "eventify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "dev": "concurrently \"npm.cmd --prefix backend start\" \"npm.cmd --prefix frontend run dev\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^10.0.7"
+  }
+}
